@@ -1,5 +1,6 @@
 import string, random
 
+<<<<<<< HEAD
 vowels = 'aeiouy'
 consonants = 'bcdfhjklmnpqrstvwxz'
 
@@ -24,3 +25,12 @@ for i in range(20):
     L3 = Generator(Letter3)
 
     print(L1 + L2 + L3)
+=======
+def Generator():
+    L1 = random.choice(string.ascii_lowercase)
+    L2 = random.choice(string.ascii_lowercase)
+    L3 = random.choice(string.ascii_lowercase)
+    return(L1 + L2 + L3)
+
+print(Generator())
+>>>>>>> Application1
