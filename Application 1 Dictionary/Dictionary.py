@@ -26,7 +26,7 @@ word = input("Enter your Word: ")
 r = translate(word)
 
 if type(r) == list:
-    for w in r
+    for w in r:
         print(w)
 else:
     print(r)
